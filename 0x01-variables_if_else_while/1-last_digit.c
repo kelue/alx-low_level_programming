@@ -3,9 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* main - main function here 
+/*
+ * main - main function here
  *
- * Return: always 0 
+ * Return: always 0
  */
 
 int main(void)
@@ -27,6 +28,5 @@ int main(void)
 	}
 	else
 		printf("and is 0\n");
-
 	return (0);
 }
