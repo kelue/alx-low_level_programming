@@ -3,11 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* 
- * main - main function here
- *
- * Return: always 0 
- */
+/**
+* main - main function here
+*
+* Return: always 0
+*/
 
 int main(void)
 {
