@@ -9,6 +9,9 @@
 
 void _puts(char *str)
 {
+	if (*s == 0)
+		printf("\n");
+
 	do {
 		printf("%c", *str);
 		str = str + 1;
