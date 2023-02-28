@@ -11,23 +11,23 @@ void print_rev(char *s)
 {
 	char c;
 
-	if (*str == 0)
+	if (*s == 0)
 	{
 		printf("\n");
 		return;
 	}
 
-	c = *str;
+	c = *s;
 
 	do {
-		str = str + 1;
-	} while (*str != '\0');
+		s = s + 1;
+	} while (*s != '\0');
 
-	str = str - 1;
+	s = s - 1;
 
 	do {
-		printf("%c", *str);
-		str = str - 1;
-	} while (*str != c);
+		printf("%c", *s);
+		s = s - 1;
+	} while (*s != c);
 
 }
