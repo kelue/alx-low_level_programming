@@ -9,8 +9,11 @@
 
 void _puts(char *str)
 {
-	if (*s == 0)
+	if (*str == 0)
+	{
 		printf("\n");
+		return (0);
+	}
 
 	do {
 		printf("%c", *str);
