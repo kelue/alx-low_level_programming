@@ -10,24 +10,17 @@
 
 void rev_string(char *s)
 {
-	/*int length = sizeof(*s) / sizeof(s[0]);*/
+	int i;
+	int y = 1;
+	int length = 0;
+	
 
-	int i = 1;
-	char *c = s;
+	for (i = 0; s[i] != '\0'; i++)
+		length++;
 
-	while (*s != '\0')
+	for (i = 0; x[i] != '\0'; i++)
 	{
-		*(c + i) = *s;
-		printf("value of c + 1: %c\n", *(c + i));
-		i++;
-		s = s + 1;
-		printf("value of s: %p", s);
+		s[length - y] = x[i];
+		y++;
 	}
-
-	while (i >= 0)
-	{
-		*s = *(c + i);
-		i--;
-	}
-
 }
