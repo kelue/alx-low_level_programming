@@ -3,9 +3,9 @@
 /**
 * _strncat - function that concatenates strings with optional byte count
 * @dest: destination of concatenation
-* @src: source string for to be concatenated 
+* @src: source string for to be concatenated
 * @n: number of bytes
-* 
+*
 * Return: pointer to concatenated string
 */
 
