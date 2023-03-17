@@ -62,7 +62,7 @@ char *_strstr(char *haystack, char *needle);
 
 
 
-## holberton.h
+## main.h
 
 The header file containing necessary prototypes. 
 

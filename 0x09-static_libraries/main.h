@@ -3,7 +3,7 @@
 
 /*
  * File: main.h
- * Author: Chiemezuo
+ * Author: Austine
  * Desc: Header file
  */
 int _putchar(char c);
