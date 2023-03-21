@@ -1,7 +1,7 @@
 #include "main.h"
 #include "4-sum.h"
 #include "4-sum.h"
-
+#include <stdio.h>
 /**
  * main - check the code for Holberton School students.
  *

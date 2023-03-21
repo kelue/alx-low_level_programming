@@ -1,6 +1,7 @@
 #include "main.h"
 #include "3-function_like_macro.h"
 #include "3-function_like_macro.h"
+#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
